@@ -1,5 +1,26 @@
 <template>
   <div id="app">
+    <header>
+      <router-link to="/"><h1>
+        Michael Jordan
+      </h1></router-link>
+      <ul>
+        <li>
+          <router-link to="Biographie" alt="Biographie">
+            Biographie
+          </router-link>
+        </li>
+        <li>
+          <a href="#" alt="Réalisations">Réalisations</a>
+        </li>
+        <li>
+          <a href="#" alt="Equipe">Equipe</a>
+        </li>
+        <li>
+          <a href="#" alt="Ajouter">Ajouter</a>
+        </li>
+      </ul>
+    </header>
     <router-view/>
   </div>
 </template>
@@ -32,7 +53,6 @@ h2{
   font-family: "Academic M54";
   font-size: 2em;
   -webkit-text-stroke: 0.5px #CE1141;
-
 }
 
 h1 h2{

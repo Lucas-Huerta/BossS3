@@ -1,25 +1,6 @@
 <template>
 
   <div>
-    <header>
-      <h1>
-        Michael Jordan
-      </h1>
-      <ul>
-        <li>
-          <a href="#" alt="Biographie">Biographie</a>
-        </li>
-        <li>
-          <a href="#" alt="Réalisations">Réalisations</a>
-        </li>
-        <li>
-          <a href="#" alt="Equipe">Equipe</a>
-        </li>
-        <li>
-          <a href="#" alt="Ajouter">Ajouter</a>
-        </li>
-      </ul>
-    </header>
 
     <div class="section-1">
       <div>
@@ -127,7 +108,7 @@ export default {
   width: 100vw;
   flex-direction: row;
   justify-content: center;
-  margin: 10vh 0 0 0 ;
+  margin: 10vh 0 10vh 0 ;
 }
 
 .section-2 h2{
