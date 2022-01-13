@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     <header>
-      <router-link to="/"><h1>
-        Michael Jordan
-      </h1></router-link>
+      <router-link to="/">
+        <h1>
+          Michael Jordan
+        </h1>
+      </router-link>
       <ul>
         <li>
           <router-link to="Biographie" alt="Biographie">
@@ -17,7 +19,7 @@
           <router-link to="Equipe" alt="Equipe">Equipe</router-link>
         </li>
         <li>
-          <a href="#" alt="Ajouter">Ajouter</a>
+          <router-link to="Formulaire" alt="Ajouter">Ajouter</router-link>
         </li>
       </ul>
     </header>
@@ -35,6 +37,11 @@ export default {
 
 /*NORMALISER*/
 
+@font-face {
+  font-family: 'Academic M54';
+  src: url("assets/Police/AcademicM54.ttf");
+}
+
 #app{
   margin: 0;
 }
@@ -50,7 +57,6 @@ h1{
   font-family: "Academic M54";
   font-size: 2.5em;
   -webkit-text-stroke: 1px #CE1141;
-
 }
 
 h2{
@@ -77,7 +83,6 @@ span{
   color: #CE1141;
   font-weight: bold;
 }
-
 
 /*NAV*/
 

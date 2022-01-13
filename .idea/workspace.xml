@@ -7,9 +7,10 @@
     <list default="true" id="c7cd76dd-89d6-4b2f-b933-6f5540c715fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boss/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boss/src/assets/B9723518248Z.1_20200521094929_000+GMJG1QFRK.1-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boss/src/components/Accueil.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Accueil.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boss/src/components/Biographie.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Biographie.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boss/src/components/Equipe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Equipe.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boss/src/components/Formulaire.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Formulaire.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boss/src/components/Realisation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Realisation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boss/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/router/index.js" afterDir="false" />
     </list>
@@ -69,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642071133340</updated>
-      <workItem from="1642071135208" duration="13446000" />
+      <workItem from="1642071135208" duration="16587000" />
     </task>
     <task id="LOCAL-00001" summary="Début page accueil">
       <created>1642080824879</created>
@@ -92,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642087075181</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="page Equipe">
+      <created>1642088438698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642088438698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +110,7 @@
     <MESSAGE value="Début page accueil" />
     <MESSAGE value="page Biographie" />
     <MESSAGE value="page Realisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="page Realisation" />
+    <MESSAGE value="page Equipe" />
+    <option name="LAST_COMMIT_MESSAGE" value="page Equipe" />
   </component>
 </project>

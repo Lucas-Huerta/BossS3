@@ -7,6 +7,7 @@ import Accueil from "../components/Accueil";
 import Biographie from "../components/Biographie";
 import Realisation from "../components/Realisation";
 import Equipe from "../components/Equipe";
+import Formulaire from "../components/Formulaire";
 
 Vue.use(Router)
 
@@ -31,6 +32,11 @@ export default new Router({
       path: '/Equipe',
       name: 'Equipe',
       component: Equipe
+    },
+    {
+      path: '/Formulaire',
+      name: 'Formulaire',
+      component: Formulaire
     },
   ],
 

@@ -64,12 +64,37 @@
       </div>
     </div>
     <div class="section-4">
-      <img src="../assets/add.png" alt="icone ajouter">
+      <router-link to="Formulaire">
+        <img src="../assets/add.png" alt="icone ajouter">
+      </router-link>
       <p>
         Ajouter une information sur <span> Michael Jordan</span>
       </p>
       <hr>
     </div>
+    <footer>
+      <div class="footerPremCol">
+        <p>
+          Exercice réalisé dans le
+          cadre d'un projet pédagogique
+          au département MMI de Montbéliard.
+        </p>
+      </div>
+      <div class="footerDeuxCol">
+        <h2>
+          Pages
+        </h2>
+        <ul>
+          <li><router-link to="/">Accueil</router-link></li>
+          <li><router-link to="Biographie">Biographie</router-link></li>
+          <li><router-link to="Realisation">Réalisation</router-link></li>
+          <li><router-link to="Formulaire">Ajouter</router-link></li>
+        </ul>
+      </div>
+      <div class="footerTroisCol">
+        <h2>Contact</h2>
+      </div>
+    </footer>
   </div>
 
 </template>
@@ -184,6 +209,59 @@ export default {
 
 .section-4 p{
   text-align: center;
+  width: 20vw;
+}
+
+.section-4 hr{
+  width: 40vw;
+  border: white 1px solid;
+}
+
+/*FOOTER*/
+
+footer{
+  background-color: #1F1F1F;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+
+footer a{
+  color: white;
+}
+
+footer ul{
+  padding: 0;
+}
+
+footer div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerPremCol{
+  display: flex;
+  margin-top: 10vh;
+  width: 20vw;
+}
+
+.footerPremCol p{
+  width: 20vw;
+}
+
+.footerDeuxCol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  text-align: center;
+}
+
+.footerTroisCol{
   width: 20vw;
 }
 
