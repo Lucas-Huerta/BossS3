@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7cd76dd-89d6-4b2f-b933-6f5540c715fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Boss/src/components/Realisation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boss/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boss/src/assets/B9723518248Z.1_20200521094929_000+GMJG1QFRK.1-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boss/src/components/Biographie.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Biographie.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boss/src/components/Equipe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Equipe.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boss/src/components/Realisation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Realisation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boss/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642071133340</updated>
-      <workItem from="1642071135208" duration="12085000" />
+      <workItem from="1642071135208" duration="13446000" />
     </task>
     <task id="LOCAL-00001" summary="Début page accueil">
       <created>1642080824879</created>
@@ -82,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642085612967</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="page Realisation">
+      <created>1642087075181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642087075181</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Début page accueil" />
     <MESSAGE value="page Biographie" />
-    <option name="LAST_COMMIT_MESSAGE" value="page Biographie" />
+    <MESSAGE value="page Realisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="page Realisation" />
   </component>
 </project>

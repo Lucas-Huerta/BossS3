@@ -14,7 +14,7 @@
           <router-link to="Realisation" alt="Réalisations">Réalisations</router-link>
         </li>
         <li>
-          <a href="#" alt="Equipe">Equipe</a>
+          <router-link to="Equipe" alt="Equipe">Equipe</router-link>
         </li>
         <li>
           <a href="#" alt="Ajouter">Ajouter</a>
@@ -34,6 +34,10 @@ export default {
 <style>
 
 /*NORMALISER*/
+
+#app{
+  margin: 0;
+}
 
 body{
   margin: 0;

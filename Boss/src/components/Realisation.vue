@@ -71,8 +71,15 @@ export default {
   width: 100vw;
   height: 100vh;
   background-image: url("../assets/imgNike.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.section-1 p{
+  color: white;
+  width: 30vw;
+  padding-top: 40vh;
+  padding-left: 10vw;
 }
 
 .section-2{

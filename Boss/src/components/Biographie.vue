@@ -83,10 +83,11 @@ export default {
 <style scoped>
 
 .section-1{
-  width: 200vw;
+  width: 100vw;
   height: 100vh;
-  background-image: url("../assets/imgBio.jpg");
-  background-size: contain;
+  margin-top: 0;
+  background-image: url("../assets/imgBioRogner.png");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 

@@ -6,6 +6,7 @@ import Accueil from "../components/Accueil";
 
 import Biographie from "../components/Biographie";
 import Realisation from "../components/Realisation";
+import Equipe from "../components/Equipe";
 
 Vue.use(Router)
 
@@ -25,7 +26,12 @@ export default new Router({
       path: '/Realisation',
       name: 'Realisation',
       component: Realisation
-    }
+    },
+    {
+      path: '/Equipe',
+      name: 'Equipe',
+      component: Equipe
+    },
   ],
 
   scrollBehavior (to, from, savedPosition) {
