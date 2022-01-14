@@ -58,9 +58,11 @@
     </div>
 
     <div class="section-5">
-      <button class="boutonRouge">
-        Découvrir les 23 modèles
-      </button>
+      <router-link to="Modele">
+        <button class="boutonRouge">
+          Découvrir les 23 modèles
+        </button>
+      </router-link>
     </div>
 
     <footer>

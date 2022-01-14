@@ -9,6 +9,8 @@ import Realisation from "../components/Realisation";
 import Equipe from "../components/Equipe";
 import Formulaire from "../components/Formulaire";
 
+import Modeles from "../components/Modeles";
+
 Vue.use(Router)
 
 export default new Router({
@@ -38,6 +40,11 @@ export default new Router({
       name: 'Formulaire',
       component: Formulaire
     },
+    {
+      path: '/Modele',
+      name: 'Modele',
+      component: Modeles
+    }
   ],
 
   scrollBehavior (to, from, savedPosition) {
