@@ -16,6 +16,12 @@
         <input type="text" placeholder="Catégorie">
       </div>
       <input type="text" placeholder="Texte" class="text">
+
+      <button class="boutonRouge">
+        <router-link to="/Biographie" alt="bouton ajouter">
+          Ajouter
+        </router-link>
+      </button>
     </form>
 
     <footer>
@@ -87,6 +93,19 @@ h1{
   margin: 5vh auto 0 auto;
   width: 40vw;
   height: 20vh;
+}
+
+form button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  margin: 5vh auto 5vh auto;
+}
+
+form button a{
+  color: white;
 }
 
 /*FOOTER*/

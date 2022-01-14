@@ -5,9 +5,9 @@
         A côté du basket ball, Michael Jordan à
         réalisé de nombreux projets. Un des plus
         populaire et plus répandu est son
-        partenariat avec la marque Nike. Ce qui
-        lui vaudra une polémique et un énorme
-        succès.
+        partenariat avec la marque <span>Nike</span>. Ce qui
+        lui vaudra une <span>polémique</span> et un <span>énorme
+        succès</span>.
       </p>
     </div>
     <div class="section-2">
@@ -15,7 +15,7 @@
       <p>
         Sa maîtrise du ballon de basket va le faire connaître et repérer par
         la maque Nike. Ensemble ils vont faire un partenariat et,
-        la air Jordan 1 voit le jour.
+        la <span>air Jordan 1</span> voit le jour.
       </p>
     </div>
     <div class="section-3">
@@ -25,13 +25,13 @@
           Air Jordan
         </h2>
         <p>
-          Cette basket, la ait Jordan 1 est la première chaussure
+          Cette basket, la air Jordan 1 est la <span>première</span> chaussure
           de basket avec des couleurs. Michael Jordan, lors de
-          son premier match avec ces basket créer une véritable
-          polémique car il porte des baskets avec des couleurs et
+          son premier match avec ces baskets créer une véritable
+          polémique car il porte des baskets avec des <span>couleurs</span> et
           non seulement en noir.
           Nike va aussi être pris dans la polémique mais cela va
-          s'avérer leurs apporter une popularité sans égal.
+          s'avérer leurs apporter une <span>popularité</span> sans égal.
         </p>
       </div>
     </div>
@@ -45,11 +45,11 @@
         </h2>
         <p>
           La jordan brand ou Air Jordan est une filiale de Nike
-          créée en 1997. Frappée du nom de Michael Jordan,
+          créée en 1997. Frappée du nom de <span>Michael Jordan</span>,
           ancien joueur des Bulls de Chicago en NBA.
           Elle produit des équipements sportifs, principalement
           chaussures et vêtements. La marque est principalement
-          associée à la série des 23 chaussures de basket créées
+          associée à la série des <span>23</span> chaussures de basket créées
           pour le célèbre basketteur jusqu'en 2009. Inspirées
           par la personnalité du joueur ou par ses passions.
         </p>

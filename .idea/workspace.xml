@@ -12,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/Boss/src/components/Equipe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Equipe.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boss/src/components/Formulaire.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Formulaire.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boss/src/components/Realisation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Realisation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boss/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642071133340</updated>
-      <workItem from="1642071135208" duration="16587000" />
+      <workItem from="1642071135208" duration="17971000" />
+      <workItem from="1642144904161" duration="638000" />
     </task>
     <task id="LOCAL-00001" summary="Début page accueil">
       <created>1642080824879</created>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642088438698</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="page Formulaire + ajout du footer">
+      <created>1642091601768</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642091601768</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +118,7 @@
     <MESSAGE value="page Biographie" />
     <MESSAGE value="page Realisation" />
     <MESSAGE value="page Equipe" />
-    <option name="LAST_COMMIT_MESSAGE" value="page Equipe" />
+    <MESSAGE value="page Formulaire + ajout du footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="page Formulaire + ajout du footer" />
   </component>
 </project>

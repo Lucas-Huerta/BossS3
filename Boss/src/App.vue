@@ -107,6 +107,10 @@ header ul{
   justify-content: space-around;
 }
 
+header ul a:hover{
+  color: #CE1141;
+}
+
 header li{
   margin-right: 2vw;
 }

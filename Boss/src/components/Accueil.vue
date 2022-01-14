@@ -117,6 +117,7 @@ export default {
 
 .boutonRouge{
   margin-top: 5vh;
+  height: 5vh;
 }
 
 .boutonRouge a{

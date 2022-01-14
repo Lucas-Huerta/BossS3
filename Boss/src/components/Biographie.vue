@@ -10,8 +10,8 @@
     </div>
     <div class="section-2">
       <p>
-        Le numéro 23 dit Michael Jordan reste une icône dans le monde du sport,
-        surtout du basket-ball. Grâce à lui, beaucoup de personnes ont
+        Le numéro <span>23</span> dit Michael Jordan reste une icône dans le monde du sport,
+        surtout du <span>basket-ball</span>. Grâce à lui, beaucoup de personnes ont
         pu trouver une passion et un modèle à suivre.
       </p>
       <h2>
