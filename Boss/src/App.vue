@@ -16,7 +16,7 @@
           <router-link to="Realisation" alt="Réalisations">Réalisations</router-link>
         </li>
         <li>
-          <router-link to="Equipe" alt="Equipe">Equipe</router-link>
+          <router-link to="Equipe" alt="Equipe">Équipe</router-link>
         </li>
         <li>
           <router-link to="Formulaire" alt="Ajouter">Ajouter</router-link>

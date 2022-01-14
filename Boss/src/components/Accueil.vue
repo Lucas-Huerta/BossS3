@@ -9,9 +9,9 @@
           80 et, à battre tous les records dans ce sport.
         </p>
         <button class="boutonRouge">
-          <a href="#" alt="bouton en savoir plus">
-           Découvir
-          </a>
+          <router-link to="Formulaire" alt="bouton en savoir plus">
+           Découvrir
+          </router-link>
         </button>
       </div>
     </div>

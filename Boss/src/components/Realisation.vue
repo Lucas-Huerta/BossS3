@@ -56,6 +56,13 @@
       </div>
       <img src="../assets/logoAirJordan.png" alt="logo Air Jordan">
     </div>
+
+    <div class="section-5">
+      <button class="boutonRouge">
+        Découvrir les 23 modèles
+      </button>
+    </div>
+
     <footer>
       <div class="footerPremCol">
         <p>
@@ -84,7 +91,7 @@
 
 <script>
 export default {
-  name: "Realisation"
+  name: "Realisation",
 }
 </script>
 
@@ -181,6 +188,20 @@ hr{
 .section-4 div p{
   width: 30vw;
   text-align: right;
+}
+
+.section-5{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+.section-5 button{
+  color: white;
+  width: 20vw;
+  height: 5vh;
 }
 
 /*FOOTER*/

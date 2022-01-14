@@ -5,22 +5,20 @@
       Ajouter un nouvel article
     </h1>
 
-    <form>
+    <form @submit.prevent="creer">
       <div class="ligne">
-        <input type="text" placeholder="Nom">
-        <input type="text" placeholder="Prenom">
+        <input type="text" placeholder="Nom" v-model="nom">
+        <input type="text" placeholder="Prenom" v-model="prenom">
       </div>
-      <input type="text" placeholder="Email" class="mail">
+      <input type="text" placeholder="Email" class="mail" v-model="email">
       <div class="ligne">
-        <input type="text" placeholder="Intitulé">
-        <input type="text" placeholder="Catégorie">
+        <input type="text" placeholder="Intitulé" v-model="intitule">
+        <input type="text" placeholder="Catégorie" v-model="categorie">
       </div>
-      <input type="text" placeholder="Texte" class="text">
+      <input type="text" placeholder="Texte" class="text" v-model="texte">
 
       <button class="boutonRouge">
-        <router-link to="/Biographie" alt="bouton ajouter">
           Ajouter
-        </router-link>
       </button>
     </form>
 
@@ -52,7 +50,65 @@
 
 <script>
 export default {
-  name: "Formulaire"
+  name: "Formulaire",
+
+  data () {
+    return {
+      // imageData: param.imageParticipant, // Image par défaut
+      participant :{      // Structure d'un participant
+        nom:       null,
+        prenom:    null,
+        email :    null,
+        intitule:  null,
+        categorie: null,
+        texte: null,
+      },
+    }
+  },
+
+  created() {
+    axios.get('static/Biographie.json')
+      .then(function (response) {
+        console.log(response.data);
+        this.donnees = response.data;
+      }.bind(this))
+      .catch(function (error){
+        console.log(error);
+      })
+  },
+
+  methods :{
+    creer: function(){
+      // Requête Ajax pour Upload image
+      axios({
+        method: 'post',
+        url : 'static/Biographie.json',
+      }).then(function (response) {
+        // Création du participant
+        // Formatage de la date de naissance
+        axios({
+          method: 'post',
+          data :  {
+            fields : {
+              nom :         this.nom,
+              prenom :      this.prenom,
+              email :       this.email,
+              intitule :    this.intitule,
+              categorie :   this.categorie,
+              texte:        this.texte
+            }
+          },
+          // url: param.host+'participant',
+        }).then(function (response) {
+          this.$router.push('/Biographie');
+        }.bind(this))
+          .catch(error => {
+            console.log("ERREUR création infos");
+            console.log(error)
+          })
+      })
+    }
+  }
 }
 </script>
 
@@ -102,6 +158,7 @@ form button{
   align-items: center;
   height: 5vh;
   margin: 5vh auto 5vh auto;
+  color: white;
 }
 
 form button a{
