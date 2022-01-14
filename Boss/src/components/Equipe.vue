@@ -9,20 +9,14 @@
         UC. Sa mascotte est <span>Benny le Taureau</span>.
       </p>
     </div>
-    <div class="section-2">
-      <img src="../assets/logoChicagoBulls.png" alt="logo equipe Chicago Bulls">
+    <div class="section-2" v-for="donnee in donnees" :key="donnee.id">
+      <img v-bind:src="donnee.imgBulls" alt="img">
       <p>
-        Après deux décennies sans grands succès, les Bulls ont acquis un des plus beaux palmarès de la NBA et
-        une reconnaissance internationale dans les années 1990. Emmenés par l'entraîneur Phil Jackson et par <span>Michael
-        Jordan</span>,
-        considéré comme le <span>meilleur basketteur de tous les temps</span>.
+        {{ donnee.textePalmares }}
       </p>
-      <img src="../assets/EquipeSection2.jpg" alt="Jordan qui smash">
+      <img v-bind:src="donnee.imgEquipe" alt="Jordan qui smash">
       <p>
-        Lors de la saison 1995-1996, ils établissent l'ancien record du plus grand nombre de victoires en saison
-        régulière 72 matchs gagnés sur 82 joués (battu lors de la saison 2015-2016 par les Warriors de Golden State).
-        Avec six titres NBA à son actif, elle est la troisième franchise <span>la plus titrée</span> de la ligue derrière les Celtics de Boston et
-        les Lakers de Los Angeles, et n'a jamais <span>perdu</span> une finale dans toute son histoire.
+        {{donnee.texteSaison }}
       </p>
     </div>
 
@@ -54,7 +48,24 @@
 
 <script>
 export default {
-  name: "Equipe"
+  name: "Equipe",
+
+  data() {
+    return {
+      donnees: []
+    }
+  },
+
+  created() {
+    axios.get('static/Equipe.json')
+      .then(function (response) {
+        console.log(response.data);
+        this.donnees = response.data;
+      }.bind(this))
+      .catch(function (error){
+        console.log(error);
+      })
+  }
 }
 </script>
 

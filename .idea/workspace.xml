@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7cd76dd-89d6-4b2f-b933-6f5540c715fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boss/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boss/src/components/Accueil.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Accueil.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boss/src/components/Biographie.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Biographie.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boss/src/components/Equipe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Equipe.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boss/src/components/Formulaire.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Formulaire.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boss/src/components/Realisation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Boss/src/components/Realisation.vue" afterDir="false" />
-    </list>
+    <list default="true" id="c7cd76dd-89d6-4b2f-b933-6f5540c715fd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642071133340</updated>
       <workItem from="1642071135208" duration="17971000" />
-      <workItem from="1642144904161" duration="638000" />
+      <workItem from="1642144904161" duration="895000" />
     </task>
     <task id="LOCAL-00001" summary="Début page accueil">
       <created>1642080824879</created>
@@ -107,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642091601768</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fin première journée">
+      <created>1642145789850</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642145789850</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +118,7 @@
     <MESSAGE value="page Realisation" />
     <MESSAGE value="page Equipe" />
     <MESSAGE value="page Formulaire + ajout du footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="page Formulaire + ajout du footer" />
+    <MESSAGE value="fin première journée" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin première journée" />
   </component>
 </project>

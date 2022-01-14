@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "age": "58 ans",
+    "taille": "1m 96",
+    "poids": "98 kg",
+    "surnom": "Air Jordan",
+    "date_naissance": "17 février 1963",
+    "img": "../assets/logo.png"
+  }
+]

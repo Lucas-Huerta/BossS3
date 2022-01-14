@@ -25,7 +25,7 @@
         <div class="colonneGauche">
           <img src="../assets/smash.jpg" alt="image smash">
         </div>
-        <div class="colonneDroite">
+        <div class="colonneDroite" >
           <div>
             <h3>
               Age
@@ -43,21 +43,21 @@
               Date de naissance
             </h3>
           </div>
-          <div>
+          <div v-for="donnee in donnees" :key="donnee.id">
             <p>
-              58 ans
+              {{ donnee.age }}
             </p>
             <p>
-              1m 96
+              {{ donnee.taille }}
             </p>
             <p>
-              98 kg
+              {{ donnee.poids }}
             </p>
             <p>
-              Air Jordan
+              {{ donnee.surnom }}
             </p>
             <p>
-              17 février 1963
+              {{ donnee.date_naissance }}
             </p>
           </div>
         </div>
@@ -101,7 +101,23 @@
 
 <script>
 export default {
-  name: "Biographie"
+  name: "Biographie",
+  data() {
+    return {
+      donnees: []
+    }
+  },
+
+  created() {
+    axios.get('static/Biographie.json')
+    .then(function (response) {
+      console.log(response.data);
+      this.donnees = response.data;
+    }.bind(this))
+    .catch(function (error){
+      console.log(error);
+    })
+  }
 }
 </script>
 
